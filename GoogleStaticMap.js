@@ -47,7 +47,7 @@ const IMAGE_FORMATS_VALUES = values(IMAGE_FORMATS);
 const MAP_TYPES_VALUES = values(MAP_TYPES);
 
 // the Image's source should be ignored
-const {source, ...imagePropTypes} = Image.propTypes;
+// const {source, ...imagePropTypes} = Image.propTypes;
 
 
 /**
@@ -71,7 +71,7 @@ class GoogleStaticMap extends Component {
   static MapTypes = MAP_TYPES;
 
   static propTypes = {
-    ...imagePropTypes,
+    // ...imagePropTypes,
 
     latitude: PropTypes.string.isRequired,
 
